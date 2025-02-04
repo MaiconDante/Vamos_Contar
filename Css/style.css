@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(3, 3, 247, 0.754);
+}
+
+main > section {
+    display: block;
+    width: 800px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+}
+
+main > section#dados {
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    height: 340px;
+}
+
+main > section#calculo {
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 3px solid rgba(0, 12, 248, 0.724);
+    height: 150px;
+}
+
+main > section > p.label {
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: x-large;
+}
+
+main > section > p > input#inicio, input#fim, input#passo {
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+main > section > p > input#fim {
+    margin-left: 26px;
+}
+
+main > section > input#botao {
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 40px;
+    border: 2px solid rgb(7, 7, 7);
+    font-size: small;
+    font-weight: bold;
+}
+
+main > section > input#botao:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+main > section > p#titulo_resultado {
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: darkslateblue;
+}
+
+main > section > p#resultado, p#titulo_resultado {
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+header > h1 {
+    background-color: #030faf;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 3px 3px 5px rgba(10, 10, 11, 0.529);
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+}
+
