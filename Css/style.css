@@ -29,7 +29,9 @@ main > section#calculo {
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border: 3px solid rgba(0, 12, 248, 0.724);
-    height: 150px;
+    height: auto;
+    padding-right: 40px;
+    padding-bottom: 20px;
 }
 
 main > section > p.label {
