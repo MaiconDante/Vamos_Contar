@@ -95,3 +95,13 @@ footer {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
 }
 
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
